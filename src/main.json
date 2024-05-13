@@ -1,0 +1,46 @@
+{
+    "views": [
+        {
+            "message": {
+                "header": {
+                    "text": "Header",
+                    "x": 0,
+                    "y": 0,
+                    "horizontal": "Center",
+                    "vertical": "Center"
+                },
+                "text": {
+                    "text": "No Header",
+                    "x": 0,
+                    "y": 0,
+                    "horizontal": "Center",
+                    "vertical": "Center"
+                },
+                "buttons": [
+                    {
+                        "text": "Go Back",
+                        "function": "back"
+                    },
+                    {
+                        "text": "Next View",
+                        "function": "next"
+                    },
+                    {
+                        "text": "Close the App",
+                        "function": "close"
+                    },
+                    {
+                        "text": "Go Back",
+                        "function": "back"
+                    }
+                ]
+            }
+        },
+        {
+            "alert": {
+                "text": "Hey, click \"Ok\" to go further!",
+                "function": "next"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+cargo-features = ["different-binary-name"]
+
+[package]
+name = "test"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.78.0"
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
+
+[[bin]]
+name = "test"
+filename = "test.fap"
+bench = false
+test = false
+
+[dependencies]
+flipperzero = { version = "0.11.0" }
+flipperzero_sys = { git = "https://github.com/flipperzero-rs/flipperzero", package = "flipperzero-sys" }
+flipperzero_rt = { git = "https://github.com/flipperzero-rs/flipperzero", package = "flipperzero-rt" }
+flip-ui = "0.1.2"
