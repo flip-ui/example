@@ -9,6 +9,7 @@ autobins = false
 autoexamples = false
 autotests = false
 autobenches = false
+license = "MIT OR Apache-2.0"
 
 [[bin]]
 name = "test"
